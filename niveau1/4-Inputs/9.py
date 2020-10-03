@@ -1,9 +1,10 @@
-bas = int(input())
-haut = int(input())
+volumeSocle = 0
 
-total = 0
+largeurSocleMax = int(input())
+largeurSocleMin = int(input())
 
-for i in range(haut, bas + 1):
-    total += i * i
+for largeurEtage in range(largeurSocleMin, largeurSocleMax + 1):
+    volumeEtage = 1 * largeurEtage * largeurEtage
+    volumeSocle += volumeEtage
 
-print(total)
+print(volumeSocle)

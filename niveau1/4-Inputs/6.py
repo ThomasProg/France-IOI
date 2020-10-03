@@ -1,7 +1,6 @@
-nbNombres = int(input())
 nb = 66
+nbNombres = int(input())
 
-for i in range(1, nbNombres + 1):
-    nb *= i
+for i in range(2, nbNombres + 2):
     print(nb)
-
+    nb *= i

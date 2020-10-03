@@ -1,5 +1,4 @@
-total = 0
+somme = 0
 for i in range(20):
-    total += int(input())
-
-print(total)
+    somme += int(input())
+print(somme)
