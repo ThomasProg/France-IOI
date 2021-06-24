@@ -3,7 +3,7 @@ nbMaxPierres = int(input())
 cote = 0
 nbPierresActu = 0
 
-while (nbPierresActu + cote * cote <= nbMaxPierres):
+while (nbPierresActu <= nbMaxPierres):
     cote += 1
     nbPierresActu += cote * cote
 
